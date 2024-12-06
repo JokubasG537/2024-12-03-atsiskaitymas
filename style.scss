@@ -13,6 +13,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -149,15 +150,23 @@ nav {
     }
 
     @include r.sxl {
-        margin-left: 200px;
+  
     }
 
     @include r.md {
-        margin-left: 300px;
+  
     }
 
     @include r.sm {
-        margin-left: 40px;
+  
+    }
+
+    @include r.vm {
+    
+    }
+
+    @include r.vm {
+ 
     }
 
    
@@ -216,23 +225,29 @@ nav {
             width: 343px;
         }
 
-        @include r.sxl {
-            overflow: hidden;
-        }
     }
 
     @include r.lg {
         display: flex;
         gap: 50px;
-        margin-left: 200px;
+ 
         }
 
         @include r.md {
-            margin-left: 340px;
+   
         }
 
         @include r.sm {
-            margin-left: 500px;
+       
+        }
+
+        @include r.sm {
+            overflow: hidden;
+  
+        }
+
+        @include r.vm {
+    
         }
 }
 }
@@ -255,6 +270,10 @@ nav {
 
         @include r.sxl {
             width: 30%;
+        }
+
+        @include r.vm {
+            width: 50%;
         }
     } 
 
@@ -335,15 +354,21 @@ nav {
     }
 
     @include r.sxl {
-        margin-left: 250px;
+
     }
 
     @include r.sxl {
-        margin-left: 330px;
+
     }
 
     @include r.md {
-        margin-left: 370px;
+
+    }
+
+    @include r.vm {
+        display: flex;
+        flex-direction: column;
+
     }
 }
 }
@@ -379,6 +404,11 @@ nav {
                 font-size: 41px;
             
         } 
+
+        @include r.vm {
+
+            
+        }
     }
 
     .section-3-content {
@@ -430,19 +460,31 @@ nav {
                 font-size: 16px;
             }
         }
+
+        @include r.vm {
+
+          
+        }
     }
 
     @include r.sxl {
-        margin-left: 220px;
+
     }
 
     @include r.sxl {
-        margin-left: 300px;
+
     }
 
     @include r.md {
-        margin-left: 350px;
+
     }
+
+    @include r.vm {
+        overflow: hidden;
+
+        ;
+    }
+
 }
 }
 
@@ -455,6 +497,7 @@ nav {
     gap: 105px;
     margin-bottom: 137px;
     margin-left: 140px;
+    overflow: hidden;
 
     .section-4-img {
         
@@ -477,16 +520,16 @@ nav {
     }
 
     @include r.sxl {
-        margin-left: 220px;
+ 
     }
 
     @include r.sxl {
-        margin-left: 300px;
+
     }
 
     @include r.md {
-        margin-left: 370px;
-        display: flex;
+
+
         gap: 60px;
 
     }
@@ -502,6 +545,7 @@ nav {
     gap: 50px;
     margin-left: 140px;
     margin-bottom: 172px;
+    overflow: hidden;
 
     .section-5-elements-wrapper {
         display: flex;
@@ -542,15 +586,15 @@ nav {
     }
 
     @include r.sxl {
-        margin-left: 220px;
+ 
     }
 
     @include r.sxl {
-        margin-left: 300px;
+
     }
 
     @include r.md {
-        margin-left: 370px;
+
         overflow: hidden;
     }
 }
@@ -568,6 +612,7 @@ footer {
         padding-top: 115px;
         margin-left: 132px;
         margin-right: 132px;
+        overflow: hidden;
 
     :first-child {
         display: flex;
@@ -704,19 +749,19 @@ footer {
 
 
       @include r.sxl {
-        margin-left: 200px;
+
       }
 
       @include r.sxl {
-        margin-left: 240px;
+
       }
 
       @include r.sxl {
-        margin-left: 300px;
+
     }
 
     @include r.md {
-        margin-left: 400px;
+
     }
     }
   }
